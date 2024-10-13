@@ -1,0 +1,89 @@
+{
+    "productPayloads": [
+        {
+            "postpaidPhone": {
+                "itemsList": [
+                    {
+                        "continueCurrentCart": false,
+                        "offerId": "prod11070245",
+                        "productGroup": "WIRELESS",
+                        "productSKU": "sku2890290",
+                        "quantity": 1,
+                        "action": "ADD",
+                        "commitmentTerm": "NE36MNUP",
+                        "commitmentTermId": "10300001",
+                        "contractLength": 36,
+                        "contractType": "monthly",
+                        "itemType": "DEVICE",
+                        "losgType": "NEW",
+                        "extraData": {}
+                    }
+                ],
+                "serviceContext": {
+                    "srcSystem": "IDSE"
+                },
+                "shoppingContext": {
+                    "cartCreationSource": "PSC",
+                    "paymentType": "",
+                    "actionType": "PSC_ADD_TO_CART_REQUEST"
+                },
+                "hylatradeInIntentIndicator": false,
+                "portInIntentIndicator": false,
+                "source": "CPOP"
+            }
+        }
+    ],
+    "planPayloads": [
+        {
+            "postpaidPlans": {
+                "itemsList": [
+                    {
+                        "continueCurrentCart": false,
+                        "offerId": "prod10690221",
+                        "productGroup": "WIRELESS",
+                        "productSKU": "sku10060281",
+                        "quantity": 1,
+                        "action": "ADD",
+                        "extraData": {
+                            "planFirst": false
+                        },
+                        "itemType": "sharedDataGroup",
+                        "losgId": "{LOGS_ID}",
+                        "losgType": "NEW"
+                    },
+                    {
+                        "continueCurrentCart": false,
+                        "offerId": "prod12010230",
+                        "productGroup": "WIRELESS",
+                        "productSKU": "sku11590232",
+                        "quantity": 1,
+                        "action": "ADD",
+                        "extraData": {
+                            "planFirst": false
+                        },
+                        "itemType": "SHAREDDATAFEATURE",
+                        "losgId": "{LOGS_ID}",
+                        "losgType": "NEW"
+                    }
+                ],
+                "serviceContext": {
+                    "srcSystem": "IDSE"
+                },
+                "shoppingContext": {
+                    "cartCreationSource": "PSC",
+                    "isLLP": false,
+                    "isMnM": true,
+                    "actionType": "PSC_ADD_TO_CART_REQUEST",
+                    "paymentType": ""
+                },
+                "portInIntentIndicator": false,
+                "source": "CPOP"
+            }
+        }
+    ],
+    "urls": [
+        {
+            "Non-unified": "/msapi/cart/v1/"
+        }
+    ]
+}
